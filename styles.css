@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+/* header and nav start */
+.h-container {
+    background-color: black;
+    min-height: 55px;
+    color: white;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.nav-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+}
+/* header and nav end */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    min-height: 500px;
+}
+
+.right-container {
+width: 250px;
+}
+
+.lc {
+    margin-top: 20px;
+    width: 50em;
+    flex: 2;
+    border-style: solid;
+}
+
+.card2 {
+    border-style: solid;
+    /* border-style: solid; */
+}
+
+/* .card-body2 {  */
+/* border-style: solid; */
+/* } */
+/*  */
+.right-column {
+    margin-top: 20px;
+    flex: 1;
+    align-self: flex-end;
+}
+
+.btn {
+    background-color: #be688c;
+    box-shadow: 5px;
+    width: 8em;
+    gap: 15px;
+}
+
+.btn-1 {
+    background-color: #93c47d;
+    color: black;
+    box-shadow: 5px;
+    width: 8em;
+    align-self: end;
+}
+
+.btn-2 {
+    background-color: #fdbb2d;
+    color: black;
+    box-shadow: 5px;
+    align-self: baseline;
+}
+
+
+.card-body {
+    margin-bottom: 1.}
+
+.card-body2 {
+gap:calc(20px)
+}
